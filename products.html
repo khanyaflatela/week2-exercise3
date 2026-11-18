@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Products - Animated</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="custom-cursor"></div>
+    <div class="loader">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Animated Navigation -->
+    <nav>
+        <div class="logo">✦ Shop<span>Unique</span></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero with Animated Background -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Unique Finds You Didn't Know You Needed</h1>
+            <p>Shop our most loved obscure-but-real products</p>
+            <button class="cta">Shop Now →</button>
+        </div>
+        <div class="hero-shape"></div>
+    </header>
+
+    <main class="product-grid">
+
+        <div class="card">
+            <div class="icon">☕</div>
+            <img src="https://m.media-amazon.com/images/I/51JxgoboFTL._AC_SX679_.jpg" alt="Portable Espresso Maker">
+            <h2>Portable Espresso Maker</h2>
+            <p class="description">Make barista-quality espresso anywhere. No electricity needed.</p>
+            <p class="price">R 900</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌱</div>
+            <img src="https://m.media-amazon.com/images/I/71QjtUeafML._AC_SX679_.jpg" alt="Smart Plant Sensor">
+            <h2>Smart Plant Sensor</h2>
+            <p class="description">Tells you when your plant needs water, light or food.</p>
+            <p class="price">R 549.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎮</div>
+            <img src="https://www.makro.co.za/asset/rukmini/fccp/832/832/ng-fkpublic-ui-user-fbbe/gamingconsole/6/e/a/na-400-in-1-hand-held-retro-game-console-0-1-sup-original-imah6qf7xucyyaf6.jpeg?q=70" alt="Retro Handheld Game Console">
+            <h2>Retro Handheld Game Console</h2>
+            <p class="description">500+ classic games built-in. Perfect for load shedding.</p>
+            <p class="price">R 1,299.50</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">📱</div>
+            <img src="https://img.fruugo.com/product/3/10/1696474103_max.jpg" alt="UV Phone Sanitizer">
+            <h2>UV Phone Sanitizer Box</h2>
+            <p class="description">Kills 99% of germs in 10 minutes. Charges while it cleans.</p>
+            <p class="price">R 399.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">💧</div>
+            <img src="https://m.media-amazon.com/images/I/61DA7qrqyeL._AC_SX679_.jpg" alt="Smart Water Bottle">
+            <h2>Smart Water Bottle</h2>
+            <p class="description">Glows to remind you to drink and tracks it in the app.</p>
+            <p class="price">R 650</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌀</div>
+            <img src="https://m.media-amazon.com/images/I/31RQ6z+JRyL._AC_.jpg" alt="Portable Neck Fan">
+            <h2>Hands-Free Neck Fan</h2>
+            <p class="description">Stay cool hands-free. Quiet, rechargeable, perfect for summer.</p>
+            <p class="price">R 9000</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </main>
+
+    <script>
+        // Hide loader after page loads
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.querySelector('.loader').style.display = 'none';
+            }, 800);
+        });
+    </script>
+    <script src="cursor.js"></script>
+
+</body>
+</html>
